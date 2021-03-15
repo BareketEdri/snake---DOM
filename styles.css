@@ -1,0 +1,85 @@
+*{
+    text-align: center;
+    color:#1f441e;
+    font-family:Papyrus,Monaco,sans-serif;
+}
+body{
+  background-image: url(images/sand.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+h1{
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+p{
+  color:#196F3D;
+}
+label{
+    color:#196F3D;
+    font-size: 15px;
+    margin-right: 4px;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+button{
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid #1E8449 ;
+    background-image: url(images/sand.jpg);
+        border-radius: 4px;
+
+}
+button:hover {
+    background-color:#EAFAF1; 
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  button:active {
+    transform: translateY(2px);
+  }
+  #board {
+    margin-top:25px;
+    margin-left: 33%;
+    display: grid;
+    grid-gap: 0;
+    grid-template-rows: repeat(var(--grid-rows), 50px);
+    grid-template-columns: repeat(var(--grid-cols),50px);
+  }
+  
+  .cell {
+    padding: 1em;
+    border: 1px solid #1f441e;
+    background-image: url(images/grass.jpg);
+  }
+  .food {
+    padding: 1em;
+    border: 1px solid #1f441e;
+    background-image:url(images/apple.png);
+  }
+  .burger {
+    padding: 1em;
+    border: 1px solid #1f441e;
+    background-image:url(images/burger.PNG);
+  }
+  .blackHole {
+    padding: 1em;
+    border: 1px solid #1f441e;
+    background-image:url(images/blackHole.PNG);
+  }
+  .snake {
+    padding: 1em;
+    border: 1px solid #1f441e;
+    border-radius: 3px;
+    background-image: url(images/snakeBody.png);
+  }
+  .snakeFace {
+    padding: 1em;
+    border: 1px solid #1f441e;
+    background-image: url(images/snakeFace.PNG);
+  }
+  .rock{
+    padding: 1em;
+    border: 1px solid #1f441e;
+    background-image: url(images/rock.PNG);
+  }
